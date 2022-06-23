@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите число");
+int numberA = Convert.ToInt32(Console.ReadLine());
+int summ = numberA*numberA;
+Console.WriteLine(summ);
